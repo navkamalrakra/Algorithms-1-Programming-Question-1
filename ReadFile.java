@@ -11,7 +11,7 @@ public class ReadFile {
 		String line;
 		this.rawIntegers = new ArrayList<Integer>();
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("C:\\Users\\navkamal_521471.ITLINFOSYS\\Desktop\\IntegerArray.txt"));
+			BufferedReader in = new BufferedReader(new FileReader("C:\\Users\\navkamalrakra\\Desktop\\IntegerArray.txt"));
 			while ((line = in.readLine()) != null) {
 				this.rawIntegers.add(Integer.parseInt(line));
 			}
